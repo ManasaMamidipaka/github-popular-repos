@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.repository-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  background-color: #f8f8ff;
+  border-radius: 25px;
+  height: 300px;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+@media (min-width: 576px) {
+  .repository-item-container {
+    flex-basis: 45%;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .repository-item-container {
+    flex-basis: 30%;
+  }
+}
+@media (min-width: 1200px) {
+  .repository-item-container {
+    flex-basis: 25%;
+  }
+}
+.card-image {
+  height: 95px;
+  width: 95px;
+}
+.card-name {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #e73959;
+}
+.stars-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 85%;
+}
+.stars-icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 12px;
+}
+.stars-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 0px;
+}
